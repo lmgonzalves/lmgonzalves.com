@@ -1,0 +1,42 @@
+{
+  "name": "lmgonzalves.com",
+  "version": "1.0.0",
+  "description": "lmgonzalves portfolio",
+  "author": "lmgonzalves",
+  "license": "MIT",
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=3009 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "nuxt": "^1.0.0-rc11"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^2.0.5",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmgonzalves/lmgonzalves.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmgonzalves/lmgonzalves.com/issues"
+  },
+  "homepage": "https://github.com/lmgonzalves/lmgonzalves.com"
+}

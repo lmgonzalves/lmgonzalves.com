@@ -1,0 +1,32 @@
+@import "fonts";
+@import "text-scramble";
+@import "button";
+@import "transitions";
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: fixed;
+  font-family: $font-family;
+  background-color: #2C323D;
+  overflow: hidden;
+  user-select: none;
+}
+
+.canvas-full-size {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
