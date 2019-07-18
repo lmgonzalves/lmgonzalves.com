@@ -139,6 +139,22 @@
             return {
                 articlesContent: [
                     {
+                        date: '2019-05-24',
+                        title: ['Implementing <span>a</span>', 'Scroll Based Animation', '<span>with</span> JavaScript'],
+                        titlePosition: 'left',
+                        image: 'ScrollAnimation.png',
+                        source: 'Scotch.io',
+                        sourceLink: 'https://scotch.io/tutorials/implementing-a-scroll-based-animation-with-javascript'
+                    },
+                    {
+                        date: '2018-09-05',
+                        title: ['Building <span>the</span>', '<span>new</span> Scotch.io', 'Animated SVG Logo'],
+                        titlePosition: 'right',
+                        image: 'ScotchLogo.png',
+                        source: 'Scotch.io',
+                        sourceLink: 'https://scotch.io/tutorials/building-the-new-scotchio-animated-svg-logo'
+                    },
+                    {
                         date: '2018-08-16',
                         title: ['Building <span>a</span>', 'Portfolio Carousel', '<span>with</span> Synchronized Sliders'],
                         titlePosition: 'left',
